@@ -31,7 +31,7 @@ paragraph="""The Dr. A.P.J Abdul Kalam National Memorial was built in memory of 
 sentences=nltk.sent_tokenize(paragraph)
 lemmatizer=WordNetLemmatizer()
 
-#stemming
+#Lemmatizer
 for i in range(len(sentences)):
        words=nltk.word_tokenize(sentences[i])
        words=[lemmatizer.lemmatize(word) for word in words if word not in set(stopwords.words('English'))]
