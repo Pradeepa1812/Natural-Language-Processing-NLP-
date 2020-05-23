@@ -1,0 +1,16 @@
+Team Frequency Formula
+
+        No.of rep of words in sentences
+  TF=-------------------------------------------
+        No. of words in sentences
+        
+        
+ IDF-Inverse Document Frequency
+           __                                 _
+           |No.Of sentences                    |
+    IDF=log|-----------------------------------|
+           |No.Of sentences containing words   |
+           |_                                 _|  
+           
+           
+Finally=IF*IDF
